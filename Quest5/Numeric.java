@@ -31,7 +31,18 @@ public class Numeric {
     }
 
     public String squareOfInt() {
+        String output = "The square of: " + this.number + " is " + (this.number * this.number);
+            return output;
+        
+    }
+    public String squareRootOfInt() {
         String output = "The square root of: " + this.number + " is " + Math.sqrt(this.number);
+            return output;
+        
+    }
+
+    public String cubeOfInt() {
+        String output = "The cube of: " + this.number + " is " + (this.number * this.number * this.number);
             return output;
         
     }
