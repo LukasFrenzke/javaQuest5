@@ -11,6 +11,10 @@ public class Evaluate {
     System.out.println(numberTwo.isEven());
     System.out.println(number.squareOfInt());
     System.out.println(numberTwo.squareOfInt());
+    System.out.println(number.squareRootOfInt());
+    System.out.println(numberTwo.squareRootOfInt());
+    System.out.println(number.cubeOfInt());
+    System.out.println(numberTwo.cubeOfInt());
     System.out.println(number.cubeRootOfInt());
     System.out.println(numberTwo.cubeRootOfInt());
     }
